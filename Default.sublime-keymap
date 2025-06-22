@@ -1,0 +1,10 @@
+[
+    {
+        "keys": ["ctrl+shift+c"],
+        "command": "github_copilot_toggle"
+    },
+    {
+        "keys": ["ctrl+enter"],
+        "command": "github_copilot_send_message"
+    }
+]

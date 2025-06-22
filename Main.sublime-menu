@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "Tools",
+        "mnemonic": "T",
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "GitHub Copilot",
+                "id": "github_copilot",
+                "children":
+                [
+                    {
+                        "caption": "Open Chat",
+                        "command": "github_copilot"
+                    },
+                    {
+                        "caption": "Authenticate",
+                        "command": "github_copilot_authenticate"
+                    },
+                    {
+                        "caption": "Check Status",
+                        "command": "github_copilot_status"
+                    },
+                    { "caption": "-" },
+                    {
+                        "caption": "Logout",
+                        "command": "github_copilot_logout"
+                    }
+                ]
+            }
+        ]
+    }
+]

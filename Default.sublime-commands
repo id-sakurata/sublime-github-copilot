@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "GitHub Copilot: Toggle Chat Panel", 
+        "command": "github_copilot_toggle"
+    },
+    {
+        "caption": "GitHub Copilot: Send Message", 
+        "command": "github_copilot_send_message"
+    },
+    {
+        "caption": "GitHub Copilot: Authenticate", 
+        "command": "github_copilot_authenticate"
+    },
+    {
+        "caption": "GitHub Copilot: Logout", 
+        "command": "github_copilot_logout"
+    },
+    {
+        "caption": "GitHub Copilot: Status", 
+        "command": "github_copilot_status"
+    },
+    {
+        "caption": "GitHub Copilot: Inline Edit Selection",
+        "command": "github_copilot_inline_edit"
+    }
+]
