@@ -1,7 +1,7 @@
 [
     {
-        "keys": ["ctrl+shift+c"],
-        "command": "github_copilot_toggle"
+        "keys": ["alt+enter"],
+        "command": "github_copilot_inline_edit"
     },
     {
         "keys": ["ctrl+enter"],

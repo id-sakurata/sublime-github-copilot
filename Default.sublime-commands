@@ -1,11 +1,15 @@
 [
     {
-        "caption": "GitHub Copilot: Toggle Chat Panel", 
-        "command": "github_copilot_toggle"
-    },
-    {
         "caption": "GitHub Copilot: Send Message", 
         "command": "github_copilot_send_message"
+    },
+    {
+        "caption": "GitHub Copilot: Generate Code",
+        "command": "github_copilot_generate_code"
+    },
+    {
+        "caption": "GitHub Copilot: Inline Edit Selection",
+        "command": "github_copilot_inline_edit"
     },
     {
         "caption": "GitHub Copilot: Authenticate", 
@@ -16,11 +20,19 @@
         "command": "github_copilot_logout"
     },
     {
-        "caption": "GitHub Copilot: Status", 
-        "command": "github_copilot_status"
+        "caption": "GitHub Copilot: Status Check", 
+        "command": "github_copilot_status_check"
     },
     {
-        "caption": "GitHub Copilot: Inline Edit Selection",
-        "command": "github_copilot_inline_edit"
+        "caption": "GitHub Copilot: Fetch Available Models",
+        "command": "github_copilot_fetch_models"
+    },
+    {
+        "caption": "GitHub Copilot: Select Model",
+        "command": "github_copilot_select_model"
+    },
+    {
+        "caption": "GitHub Copilot: Edit Settings",
+        "command": "github_copilot_edit_settings"
     }
 ]

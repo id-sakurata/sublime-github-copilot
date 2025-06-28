@@ -1,34 +1,26 @@
 [
-    {
-        "caption": "Tools",
-        "mnemonic": "T",
-        "id": "tools",
-        "children":
-        [
-            {
-                "caption": "GitHub Copilot",
-                "id": "github_copilot",
-                "children":
-                [
-                    {
-                        "caption": "Open Chat",
-                        "command": "github_copilot"
-                    },
-                    {
-                        "caption": "Authenticate",
-                        "command": "github_copilot_authenticate"
-                    },
-                    {
-                        "caption": "Check Status",
-                        "command": "github_copilot_status"
-                    },
-                    { "caption": "-" },
-                    {
-                        "caption": "Logout",
-                        "command": "github_copilot_logout"
-                    }
-                ]
-            }
+  {
+    "caption": "Tools",
+    "mnemonic": "T",
+    "id": "tools",
+    "children": [
+      {
+        "caption": "GitHub Copilot",
+        "id": "github_copilot",
+        "children": [
+          { "caption": "Send Message", "command": "github_copilot_send_message" },
+          { "caption": "Generate Code", "command": "github_copilot_generate_code" },
+          { "caption": "Inline Edit Selection", "command": "github_copilot_inline_edit" },
+          { "caption": "-" },
+          { "caption": "Authenticate", "command": "github_copilot_authenticate" },
+          { "caption": "Status Check", "command": "github_copilot_status_check" },
+          { "caption": "Fetch Available Models", "command": "github_copilot_fetch_models" },
+          { "caption": "Select Model", "command": "github_copilot_select_model" },
+          { "caption": "Edit Settings", "command": "github_copilot_edit_settings" },
+          { "caption": "-" },
+          { "caption": "Logout", "command": "github_copilot_logout" }
         ]
-    }
+      }
+    ]
+  }
 ]
